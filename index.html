@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Femtobyte --Check Out My Works</title>
+    <style>
+        div.preloader {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            background: #444;
+            z-index: 1;
+            top: 0;
+            left: 0;
+        }
+
+        div.preloader::before {
+            content: " ";
+            width: 160px;
+            height: 160px;
+            background: transparent;
+            top: 50%;
+            left: 50%;
+            margin-left: -80px;
+            margin-top: -80px;
+            position: absolute;
+            border-radius: 50%;
+            border: 30px solid rgba(19, 18, 18, 0.164);
+            border-top-color: #fc9905cc;
+            -webkit-animation: spin 1s linear infinite;
+            animation: spin 1.6s linear infinite;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <div class="preloader"></div>
+    <main>
+        <section id="head">
+            <h1 class="head-h1">
+                Welcome To <span class="brand">Femtobyte</span> <span>.github</span>
+            </h1>
+
+            <h4 class="head-h4">projects</h4>
+            <div class="container-card">
+                <div class="card-holder">
+                    <div class="card">
+                        <div class="upper-half">
+
+                            <img src="img/freestream.jpg" alt="Picture of a TV">
+
+                        </div>
+                        <div class="lower-half">
+                            <div class="project-head">
+                                Free Stream
+                            </div>
+
+                            <div class="project-details">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, sint saepe ratione est
+                                assumenda ducimus!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="upper-half">
+
+                            <img src="img/countdown.jpg" alt="Picture of a TV">
+
+                        </div>
+                        <div class="lower-half">
+                            <div class="project-head">
+                                Countdown Timer
+                            </div>
+
+                            <div class="project-details">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, sint saepe ratione est
+                                assumenda ducimus!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="upper-half">
+
+                            <img src="img/webmodel1.jpg" alt="Picture of a TV">
+
+                        </div>
+                        <div class="lower-half">
+                            <div class="project-head">
+                                Web Model
+                            </div>
+
+                            <div class="project-details">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, sint saepe ratione est
+                                assumenda ducimus!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="upper-half">
+
+                            <img src="img/tictac.jpg" alt="Picture of a TV">
+
+                        </div>
+                        <div class="lower-half">
+                            <div class="project-head">
+                                Tic Tac Toe
+                            </div>
+
+                            <div class="project-details">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, sint saepe ratione est
+                                assumenda ducimus!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
